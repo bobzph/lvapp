@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/zc.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+<body>
+
+<div class="box">
+    <div class="zc">
+        <a href="" class="iconfont icon-jiantou"></a>
+        <a href="zc.html">注册</a>
+    </div>
+    <div class="zhuce">登录</div>
+    <div class="kk">
+        <div>
+            请输入用户名:
+        </div>
+        <div>
+            请输入密码:
+        </div>
+
+    </div>
+
+
+
+
+    <a href="" class="mima">忘记密码?</a>
+    <a class="denglu" href="shouye.html">
+        登录
+    </a>
+    <p>第三方账户登录</p>
+    <div class="lianjie">
+        <a href=""></a>
+        <a href=""></a>
+    </div>
+
+
+</div>
+
+</body>
+
+<script>
+
+    function size(origins,type){
+        var type=type||"x";
+        var widths=document.documentElement.clientWidth;
+        var height=document.documentElement.clientHeight;
+        if(type=="x"){
+            var bili=widths/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px"
+        }else if(type=="y"){
+            var bili=height/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px"
+        }
+    }
+    size(1334,"y");
+    //    var mySwiper = new Swiper ('.swiper-container', {
+    ////            loop: true,
+    //
+    //        // 如果需要分页器
+    //        pagination: '.swiper-pagination',
+    //
+    //        // 如果需要前进后退按钮
+    ////            nextButton: '.swiper-button-next',
+    ////            prevButton: '.swiper-button-prev',
+    //
+    //        // 如果需要滚动条
+    ////        scrollbar: '.swiper-scrollbar',
+    //        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+    //            swiperAnimateCache(swiper); //隐藏动画元素
+    //            swiperAnimate(swiper); //初始化完成开始动画
+    //        },
+    //        onSlideChangeEnd: function(swiper){
+    //            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+    //        }
+    //
+    //    })
+
+</script>
+</html>

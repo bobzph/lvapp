@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情</title>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/wode.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <!--<link rel="stylesheet" href="font1/iconfont.css">-->
+    <link rel="stylesheet" href="font2/iconfont.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+<body>
+
+<div class="box">
+    <header>
+        <a href="shouye.html" class="iconfont icon-jiantou-copy"></a>
+        <a class="iconfont icon-gengduo"></a>
+    </header>
+
+    <!--内容-->
+    <div class="neirong">
+        <div class="touxiang"></div>
+    </div>
+    <div class="xingcheng">
+        <a href="">我的收藏</a>
+        <a href="">我的锦囊</a>
+        <a href="">我的行程</a>
+    </div>
+    <ul>
+        <li class="xian">目的地</li>
+        <li class="xian">我的足迹</li>
+        <li>我的点评</li>
+    </ul>
+    <ul>
+        <li class="xian">我的订单</li>
+        <li class="xian">我的折扣</li>
+        <li>我的优惠券</li>
+    </ul>
+    <ul>
+        <li class="xian">我的订单</li>
+        <li class="xian">我的折扣</li>
+        <li>我的优惠券</li>
+    </ul>
+
+    <p class="dibu"></p>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+<script>
+
+    function size(origins,type){
+        var type=type||"x";
+        var widths=document.documentElement.clientWidth;
+        var height=document.documentElement.clientHeight;
+        if(type=="x"){
+            var bili=widths/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px"
+        }else if(type=="y"){
+            var bili=height/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px"
+        }
+    }
+    size(750);
+    var mySwiper = new Swiper ('.swiper-container', {
+        //            loop: true,
+        //
+        //        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        //
+        //        // 如果需要前进后退按钮
+        ////            nextButton: '.swiper-button-next',
+        ////            prevButton: '.swiper-button-prev',
+        //
+        //        // 如果需要滚动条
+        ////        scrollbar: '.swiper-scrollbar',
+        //        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+        //            swiperAnimateCache(swiper); //隐藏动画元素
+        //            swiperAnimate(swiper); //初始化完成开始动画
+        //        },
+        //        onSlideChangeEnd: function(swiper){
+        //            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        //        }
+        //
+    })
+
+</script>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情</title>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/xq.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <!--<link rel="stylesheet" href="font1/iconfont.css">-->
+    <link rel="stylesheet" href="font2/iconfont.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+<body>
+
+<div class="box">
+    <header>
+        <a href="shouye.html" class="iconfont icon-jiantou-copy"></a>
+        <a href="" class="iconfont"><span>穷游一周精选|12.3-9</span></a>
+        <a href="neirong.html" class="iconfont icon-iconfontclosesmall"></a>
+        <a class="iconfont icon-gengduo"></a>
+    </header>
+
+    <!--内容-->
+    <div class="neirong">
+        <img src="img/xiangqing1.jpg" alt="" class="toutu">
+        <h1>你的名字 美到治愈的取景地！</h1>
+        <p class="wznr">日本导演新海诚新作《你的名字》,昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！</p>
+        <p class="imgbox">
+            <img src="img/img2.jpg" alt="">
+        </p>
+        <p class="wznr">日本导演新海诚新作《你的名字》,昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！昨天正式登录中国影院！</p>
+    </div>
+    <div class="dibu">
+        <H1>-END-</H1>
+        <h3>本文由最世界原创</h3>
+        <h3>未经授权，请勿转载</h3>
+        <p class="kongge"></p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+<script>
+
+    function size(origins,type){
+        var type=type||"x";
+        var widths=document.documentElement.clientWidth;
+        var height=document.documentElement.clientHeight;
+        if(type=="x"){
+            var bili=widths/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px"
+        }else if(type=="y"){
+            var bili=height/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px"
+        }
+    }
+    size(750);
+    var mySwiper = new Swiper ('.swiper-container', {
+        //            loop: true,
+        //
+        //        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        //
+        //        // 如果需要前进后退按钮
+        ////            nextButton: '.swiper-button-next',
+        ////            prevButton: '.swiper-button-prev',
+        //
+        //        // 如果需要滚动条
+        ////        scrollbar: '.swiper-scrollbar',
+        //        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+        //            swiperAnimateCache(swiper); //隐藏动画元素
+        //            swiperAnimate(swiper); //初始化完成开始动画
+        //        },
+        //        onSlideChangeEnd: function(swiper){
+        //            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        //        }
+        //
+    })
+
+</script>
+</html>

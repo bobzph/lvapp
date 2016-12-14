@@ -1,0 +1,241 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height:100%;
+}
+html{
+    width: 100%;
+    height:100%;
+}
+.box{
+    width:100%;
+    height:100%;
+    /*background: red;*/
+}
+header{
+    width:100%;
+    height:1.03rem;
+    background:#0EBF77;
+    padding-left: .14rem;
+    padding-right: .14rem;
+}
+
+header div{
+    float: left;
+}
+.left{
+    width:5.2rem;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+.left a{
+    display: block;
+    font-size: .4rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #76DBB1;
+}
+.left a:nth-child(1){
+    display: block;
+    border-bottom: .1rem solid #fff;
+    font-size: .4rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+.left a:hover{
+    display: block;
+    border-bottom: .1rem solid #fff;
+    font-size: .4rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+.right{
+    width: 2rem;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    /*background: black;*/
+}
+.right a{
+    display: block;
+    font-size: .4rem;
+    line-height: 1rem;
+    text-decoration: none;
+    /*color: #76DBB1;*/
+    color:#fff;
+    float: left;
+}
+.right a:nth-child(1){
+    padding-left: .8rem;
+}
+
+/*banner*/
+
+.swiper-container{
+    width:100%;
+    height:3.95rem;
+    /*background:blue;*/
+}
+.b1{
+    display: block;width: 100%;height: 100%;
+}
+.mdd{
+    width:7.06rem;
+    height:1.06rem;
+    /*background: pink;*/
+    margin: 0 auto;
+    font-size: .3rem;
+}
+.mdd a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1.06rem;
+    color:#333;
+}
+.mdd a:nth-child(1){
+    margin-left: .1rem;
+}
+
+
+.mdd a:nth-child(2){
+    float: right;
+    margin-right: .2rem;
+}
+.tuijian{
+    width:100%;
+    height:auto;
+    background: #EEEEEE;
+    border-top:2px solid #BEBEBE;
+    padding: .24rem;
+}
+.tuijian1{
+    width:7rem;
+    height:auto;
+    background:#fff;
+}
+.tuijian1 img{
+    display: block;
+    width:7rem;
+    height:2.45rem;
+    border-radius: 4px 4px 0 0;
+}
+.tuijian1 .dizhi{
+    box-sizing: border-box;
+    width:7rem;
+    height:1.7rem;
+    border-bottom:1px solid #BEBEBE;
+    display: flex;
+    justify-content: space-between;
+}
+.tuijian1 .dizhi div{
+    display: flex;
+    flex-direction: column;
+    width: 1.43rem;
+    height:100%;
+    /*background: red;*/
+}
+.tuijian1 .dizhi div img{
+    display: block;
+    width: 100%;
+    height: 60%;
+}
+.tuijian1 .dizhi div a{
+    text-align: center;
+    text-decoration: none;
+    font-size: .26rem;
+    color:#333;
+
+}
+.tuijian .chengshi{
+    width:7rem;
+    height:1.2rem;
+    background: #fff;
+}
+.tuijian .chengshi .gd{
+    width:1.4rem;
+    height:.3rem;
+    background: #fff;
+    font-size: .27rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #0EBF77;
+    margin-top: .1rem;
+}
+.chengshi .chufa2{
+    width:7rem;
+    height: .6rem;
+    /*background: red;*/
+    margin-top: .2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.chengshi .chufa2 div{
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 2rem;
+    height: .6rem;
+    /*background: pink;*/
+    border:1px solid #0EBF77;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .6rem;
+    color: #0EBF77;
+}
+
+.chufa{
+    width:7rem;
+    height:1rem;
+    /*margin: 0 auto;*/
+    font-size: .5rem;
+    line-height: 1.3rem;
+    color: #0EBF77;
+    text-align: center;
+}
+.neirong{
+    width:100%;
+    height: 6.6rem;
+    background: #ccc;
+}
+.neirong img{
+    display: block;
+    width:100%;
+    height: 3rem;
+}
+.neirong .yizhou{
+    text-decoration: none;
+    display: block;
+    height: .6rem;
+    font-size: .45rem;
+    text-align: center;
+    color:#333;
+    font-weight: bold;
+    background: #fff;
+    line-height: .6rem;
+}
+.neirong .huayuan{
+    display: block;
+    width: 7rem;
+    padding: .3rem;
+    font-size: .35rem;
+    color:#333;
+    background: #fff;
+}
+.neirong .ren{
+    width:100%;
+    height: .5rem;
+    background: #fff;
+}
+
+.neirong .ren img{
+    display: block;
+    width:.5rem;
+    height: .5rem;
+    margin: 0 auto;
+}
+
+
